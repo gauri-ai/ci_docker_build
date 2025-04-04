@@ -66,3 +66,4 @@ then
 else
     echo "Docker Push Event is Successful with Image ${fullname}"
 fi
+
