@@ -9,9 +9,7 @@ set -x
 #Algorithm Name will be the Reposistory Name that is passed as a command line parameter.
 echo "Inside build_and_push.sh file"
 DOCKER_IMAGE_NAME=$1
-
 echo "value of DOCKER_IMAGE_NAME is $DOCKER_IMAGE_NAME"
-
 if [ "$DOCKER_IMAGE_NAME" == "" ]
 then
     echo "Usage: $0 <image-name>"
